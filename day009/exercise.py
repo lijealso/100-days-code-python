@@ -22,13 +22,3 @@ def add_new_country(country, visits, cities):
 #🚨 Do not change the code below
 add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
 print(travel_log)
-
-
-starting_dictionary = {
-    "a": 9,
-    "b": 8,
-}
-
-starting_dictionary["c"] = 7
-final = starting_dictionary
-print(final)
