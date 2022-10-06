@@ -1,4 +1,5 @@
 def is_leap(year):
+  "return if is a leap year or not"
   if year % 4 == 0:
     if year % 100 == 0:
       if year % 400 == 0:
@@ -25,6 +26,7 @@ year = int(input("Enter a year: "))
 month = int(input("Enter a month: "))
 days = days_in_month(month, year)
 # docstring
+print(is_leap.__doc__)
 print(days_in_month.__doc__)
 
 print(days)
